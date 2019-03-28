@@ -1,4 +1,4 @@
-require 'pry'
+
 class Dog
 
   def name= (name)
@@ -21,6 +21,6 @@ end
 fido = Dog.new
 fido.name= "Fido"
 fido.name
-binding.pry
+
 fido.breed= "Beagle"
 fido.breed
