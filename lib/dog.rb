@@ -17,10 +17,10 @@ class Dog
     @breed
   end
 end
-#binding.pry
+
 fido = Dog.new
 fido.name= "Fido"
 fido.name
-
+binding.pry
 fido.breed= "Beagle"
 fido.breed
