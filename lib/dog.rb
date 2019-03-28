@@ -9,7 +9,7 @@ class Dog
     @name
   end
 end
-binding.pry
+#binding.pry
 fido = Dog.new
 fido.name= "Fido"
 fido.name
